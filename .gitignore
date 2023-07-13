@@ -161,3 +161,4 @@ cython_debug/
 
 # sqlite
 mlb.sqlite3
+erd.vuerd.json
