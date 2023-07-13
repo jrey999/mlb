@@ -1,8 +1,9 @@
-import requests, json
+import requests, json, sqlite3
 import datetime as dt
 from pytz import timezone as tz
 
 
+DB = sqlite3.connect("mlb.sqlite3")
 def get_date(days: int=None):
 
     return str(dt.date.today() + dt.timedelta(days=days if days else 0))
