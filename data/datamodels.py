@@ -3,7 +3,7 @@ import datetime as dt
 from pytz import timezone as tz
 
 
-DB = sqlite3.connect("mlb.sqlite3")
+DB = sqlite3.connect("db.sqlite3")
 def get_date(days: int=None):
 
     return str(dt.date.today() + dt.timedelta(days=days if days else 0))

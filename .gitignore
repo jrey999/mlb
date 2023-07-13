@@ -160,5 +160,7 @@ cython_debug/
 #.idea/
 
 # sqlite
-mlb.sqlite3
+db.sqlite3
+
+#vuerd
 erd.vuerd.json

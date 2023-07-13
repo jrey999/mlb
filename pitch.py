@@ -12,7 +12,7 @@ cursor.execute(
         status = 'Final'
             AND
         (
-            game_date > CURRENT_TIMESTAMP - interval '28 hour'
+            game_date > datetime('now', '-28 hours')
                 OR
             game_id NOT IN (SELECT DISTINCT game_id FROM pitch)
         )
@@ -35,8 +35,8 @@ for game_id in game_ids:
         )
             VALUES
         (
-          %s, %s, %s, %s,
-          %s, %s, %s, %s
+          ?, ?, ?, ?,
+          ?, ?, ?, ?
         )
             ON CONFLICT(game_id, team_id, inning)
             DO UPDATE SET
@@ -58,7 +58,7 @@ for game_id in game_ids:
         )
             VALUES
         (
-            %s, %s, %s, %s
+            ?, ?, ?, ?
         )
             ON CONFLICT(player_id)
             DO UPDATE SET
@@ -81,9 +81,9 @@ for game_id in game_ids:
         )
             VALUES
         (
-            %s, %s, %s, %s,
-            %s, %s, %s, %s,
-            %s, %s
+            ?, ?, ?, ?,
+            ?, ?, ?, ?,
+            ?, ?
         )
             ON CONFLICT(pitch_id)
             DO UPDATE SET
@@ -111,11 +111,11 @@ for game_id in game_ids:
             )
         VALUES
             (
-                %s, %s, %s, %s, %s,
-                %s, %s, %s, %s, %s,
-                %s, %s, %s, %s, %s,
-                %s, %s, %s, %s, %s,
-                %s, %s, %s, %s, %s
+                ?, ?, ?, ?, ?,
+                ?, ?, ?, ?, ?,
+                ?, ?, ?, ?, ?,
+                ?, ?, ?, ?, ?,
+                ?, ?, ?, ?, ?
             )
         ON CONFLICT(pitch_id)
             DO
