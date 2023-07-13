@@ -6,7 +6,7 @@ for file in "$folder"/*; do
     tablename="${tablename%.sql}"  # Remove the ".sql" extension to get the table name
     
     # Check if the table exists
-    if sqlite3 your_database.db ".table $tablename" &>/dev/null; then
+    if sqlite3 db.sqlite3 ".table $tablename" &>/dev/null; then
         echo "Table $tablename already exists"
     else
         sqlite3 db.sqlite3 < $file
