@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": 0,
-    "zoomLevel": 0.9,
+    "scrollTop": -29,
+    "scrollLeft": -6,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -47,7 +47,7 @@
         "comment": "",
         "columns": [
           {
-            "id": "3ba92471-01c5-4f82-a0c7-ed49db65070a",
+            "id": "0aca55f0-b8eb-42ab-9371-ab301307c712",
             "name": "venue_id",
             "comment": "",
             "dataType": "integer",
@@ -70,7 +70,7 @@
             }
           },
           {
-            "id": "8f9093f2-91bb-4e9a-a173-738bf05f7665",
+            "id": "c319dc45-7051-4538-9f1d-edf993ccbf0c",
             "name": "name",
             "comment": "",
             "dataType": "text",
@@ -102,14 +102,14 @@
           "widthComment": 60
         },
         "visible": true,
-        "id": "32d918af-7139-4059-ad21-37a84ff41319"
+        "id": "949b13bb-14a1-4379-a42b-b2d62456eb34"
       },
       {
         "name": "team",
         "comment": "",
         "columns": [
           {
-            "id": "94f5e22f-7d0a-4408-85be-6eecb615b8d4",
+            "id": "b2c835e8-48d0-4118-8001-f9ebcf6444a1",
             "name": "team_id",
             "comment": "",
             "dataType": "smallint",
@@ -132,7 +132,7 @@
             }
           },
           {
-            "id": "25f40071-6d42-4b5f-a305-354970470f03",
+            "id": "c5060e24-f83d-48ff-8479-24e1eb46100f",
             "name": "name",
             "comment": "",
             "dataType": "text",
@@ -155,7 +155,7 @@
             }
           },
           {
-            "id": "bfc19c40-c267-499e-9207-abea8a3337ce",
+            "id": "a9796b25-b574-4f99-b478-7a7042f958c2",
             "name": "code",
             "comment": "",
             "dataType": "varchar(4)",
@@ -180,21 +180,21 @@
         ],
         "ui": {
           "active": false,
-          "left": 497,
-          "top": 50,
-          "zIndex": 2,
+          "left": 461,
+          "top": 63,
+          "zIndex": 16,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
-        "id": "0a8413d6-d582-40b9-bcce-60b5eb39c700"
+        "id": "0c4c493e-9314-407b-8366-4bcfa59fca23"
       },
       {
         "name": "player",
         "comment": "",
         "columns": [
           {
-            "id": "d1bc0fd6-0a5b-4d3b-be18-9e86d30a2392",
+            "id": "c5dd40d3-fdec-4afb-b1ea-f0971bc370e0",
             "name": "player_id",
             "comment": "",
             "dataType": "integer",
@@ -217,7 +217,7 @@
             }
           },
           {
-            "id": "84c50582-a2f2-45d4-8f49-2181dc8c5273",
+            "id": "7eb533df-9a54-4db5-b58c-82481ce5a651",
             "name": "name",
             "comment": "",
             "dataType": "text",
@@ -240,7 +240,7 @@
             }
           },
           {
-            "id": "56380d58-b233-409f-8429-9117c13d3a52",
+            "id": "2a8b92c4-49ed-4f15-9a50-cc001f8281ec",
             "name": "team_id",
             "comment": "",
             "dataType": "smallint",
@@ -263,7 +263,7 @@
             }
           },
           {
-            "id": "dc0511ab-2705-4083-86f8-b376c7655c72",
+            "id": "c92b05f3-57a7-456a-9629-d8d1a1923347",
             "name": "handed",
             "comment": "",
             "dataType": "varchar(7)",
@@ -288,21 +288,21 @@
         ],
         "ui": {
           "active": false,
-          "left": 964,
-          "top": 50,
-          "zIndex": 3,
+          "left": 931,
+          "top": 37,
+          "zIndex": 24,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
-        "id": "ee8dc4a9-439c-4f53-9853-8d278884589e"
+        "id": "91ce4c00-1756-43a4-abaf-b23395e77665"
       },
       {
         "name": "season",
         "comment": "",
         "columns": [
           {
-            "id": "99087213-ba53-40ad-8f37-3cc6fb62f2df",
+            "id": "e2de5776-0666-4510-8fde-142db4723e72",
             "name": "season_id",
             "comment": "",
             "dataType": "smallint",
@@ -325,7 +325,7 @@
             }
           },
           {
-            "id": "f8ebbc2a-f7fe-4616-88b6-0a1b5105c6b6",
+            "id": "69d6a4a4-c916-4042-87a9-a3e6e51516fc",
             "name": "season_start",
             "comment": "",
             "dataType": "timestamptz",
@@ -348,7 +348,7 @@
             }
           },
           {
-            "id": "bead0ecf-8f98-4ec2-8d4d-468fe35f189b",
+            "id": "4c9e55f5-97a0-4e69-b6b4-f1c86105faf8",
             "name": "playoffs_start",
             "comment": "",
             "dataType": "timestamptz",
@@ -371,7 +371,7 @@
             }
           },
           {
-            "id": "a4b76a89-b5ee-49f0-aa37-866b7754b2d3",
+            "id": "3ab95b9f-3b8e-4784-8208-cce0d2333c23",
             "name": "season_end",
             "comment": "",
             "dataType": "timestamptz",
@@ -396,21 +396,21 @@
         ],
         "ui": {
           "active": false,
-          "left": 1451,
-          "top": 50,
-          "zIndex": 4,
+          "left": 900,
+          "top": 519,
+          "zIndex": 26,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
-        "id": "762fa1ef-a8b5-4901-97e4-028c364376a6"
+        "id": "8caf9380-df6a-48eb-8c66-a135e75020e3"
       },
       {
         "name": "game",
         "comment": "",
         "columns": [
           {
-            "id": "1e59ad97-be8e-4897-8c00-3b72a6f3a612",
+            "id": "62fe05ef-967c-45d3-b13f-5877adcccc74",
             "name": "game_id",
             "comment": "",
             "dataType": "integer",
@@ -433,7 +433,7 @@
             }
           },
           {
-            "id": "849d0fad-0e8e-4eed-8e93-cef76d9decd8",
+            "id": "f216d6bb-89a8-47b0-8162-85440d829058",
             "name": "game_date",
             "comment": "",
             "dataType": "timestamptz",
@@ -456,7 +456,7 @@
             }
           },
           {
-            "id": "6e5745c2-0454-43c9-8de7-cfafc44e0705",
+            "id": "1e38966f-7001-422f-8501-fc01f5228ccb",
             "name": "away",
             "comment": "",
             "dataType": "tinyint",
@@ -479,7 +479,7 @@
             }
           },
           {
-            "id": "b23a8320-6837-4b36-8e8a-068936517e78",
+            "id": "5c98d323-4699-49b0-981e-ede53522c41f",
             "name": "home",
             "comment": "",
             "dataType": "tinyint",
@@ -502,7 +502,7 @@
             }
           },
           {
-            "id": "63a36909-5b68-49c6-8aa7-2870fa99f341",
+            "id": "11df5417-af68-4cf1-89a0-7b48bf452317",
             "name": "status",
             "comment": "",
             "dataType": "text",
@@ -525,7 +525,7 @@
             }
           },
           {
-            "id": "ec7747c0-4492-44ab-b0fb-9fcb0049abfa",
+            "id": "f20196e7-6cbc-4e72-af52-a3fa0b119a2a",
             "name": "venue_id",
             "comment": "",
             "dataType": "integer",
@@ -550,21 +550,21 @@
         ],
         "ui": {
           "active": false,
-          "left": 50,
-          "top": 267,
-          "zIndex": 5,
+          "left": 455,
+          "top": 214,
+          "zIndex": 17,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
-        "id": "9c795cc2-5f6f-4f37-b669-94f2bca2457a"
+        "id": "74726cab-0fee-4e43-b53f-3a358a12a606"
       },
       {
         "name": "inning",
         "comment": "",
         "columns": [
           {
-            "id": "8e6da61e-e7dd-4ec7-97d5-670eb081ecce",
+            "id": "e2cf40a8-10d8-46c9-9f50-666c6d7edb86",
             "name": "game_id",
             "comment": "",
             "dataType": "integer",
@@ -587,7 +587,7 @@
             }
           },
           {
-            "id": "a3170e9c-43c9-4c98-8c21-3bbc2d831dc2",
+            "id": "90cf9fe5-8802-4b12-98ae-cd53233ebd75",
             "name": "team_id",
             "comment": "",
             "dataType": "integer",
@@ -610,7 +610,7 @@
             }
           },
           {
-            "id": "35bf8e1f-6efa-40e3-b8d3-844dae0bb33e",
+            "id": "fe854200-5bb8-45fd-979f-c188f1651c72",
             "name": "inning",
             "comment": "",
             "dataType": "smallint",
@@ -633,7 +633,7 @@
             }
           },
           {
-            "id": "c199800b-3348-4b6c-9bdd-732127e26276",
+            "id": "4ef9f2da-0a39-4b85-ad0f-b661a0fd07c7",
             "name": "runs",
             "comment": "",
             "dataType": "tinyint",
@@ -656,7 +656,7 @@
             }
           },
           {
-            "id": "7224fe74-cb05-4151-9d1e-f4bd1927e750",
+            "id": "52240085-2d1a-4784-b49b-a15819f670a9",
             "name": "hits",
             "comment": "",
             "dataType": "tinyint",
@@ -679,7 +679,7 @@
             }
           },
           {
-            "id": "3972cd16-bc74-43c8-b662-e41cb320081e",
+            "id": "f5bb97ff-56a3-4c4a-9336-64197b598705",
             "name": "errors",
             "comment": "",
             "dataType": "tinyint",
@@ -702,7 +702,7 @@
             }
           },
           {
-            "id": "e6089539-3954-4261-8008-c3ef142130d0",
+            "id": "3e4be8cb-a93b-4669-9799-9105931acd12",
             "name": "left_on_base",
             "comment": "",
             "dataType": "tinyint",
@@ -727,21 +727,198 @@
         ],
         "ui": {
           "active": false,
-          "left": 547,
-          "top": 267,
-          "zIndex": 6,
+          "left": 41,
+          "top": 198,
+          "zIndex": 27,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
-        "id": "d9779d0b-b21c-4bb8-9345-37c70fa763a3"
+        "id": "2c22cd75-1e2f-4792-b051-517c748fcccd"
+      },
+      {
+        "name": "box_score",
+        "comment": "",
+        "columns": [
+          {
+            "id": "65b6f4a6-c91b-4ddd-a7e7-14ea6040081b",
+            "name": "game_id",
+            "comment": "",
+            "dataType": "integer",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": true,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "46c4f239-606c-47ad-98c7-ef2946a48244",
+            "name": "team_id",
+            "comment": "",
+            "dataType": "integer",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "bdc38c02-cb3a-4f25-9ea4-c6cd2ac0996e",
+            "name": "innings",
+            "comment": "",
+            "dataType": "tinyint",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "31b9ed5a-1403-4f3b-ab7d-2a3588b998e0",
+            "name": "runs",
+            "comment": "",
+            "dataType": "tinyint",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "b8bcb511-c339-4fc3-a36f-38672367fffb",
+            "name": "hits",
+            "comment": "",
+            "dataType": "tinyint",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "ae4f721c-2e29-4f29-a2f1-77f0e031b468",
+            "name": "errors",
+            "comment": "",
+            "dataType": "tinyint",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "7adc286a-470d-4929-9f23-194b46342858",
+            "name": "left_on_base",
+            "comment": "",
+            "dataType": "tinyint",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 76.45166015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 939,
+          "top": 210,
+          "zIndex": 23,
+          "widthName": 61.97900390625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "11b9dc5e-9de1-48dc-aa20-8754c69d4ae7"
       },
       {
         "name": "hit",
         "comment": "",
         "columns": [
           {
-            "id": "a05b07f5-93e8-48a3-adc6-c519bb2975e8",
+            "id": "9cd0bbeb-2eac-4250-8fd8-6d4e247ec463",
             "name": "pitch_id",
             "comment": "",
             "dataType": "text",
@@ -764,7 +941,7 @@
             }
           },
           {
-            "id": "90e940ed-42d5-4061-9a01-966d16cb0c68",
+            "id": "a61d7982-6b6c-4ec4-82e0-e271c243ecc7",
             "name": "team_id",
             "comment": "",
             "dataType": "smallint",
@@ -787,7 +964,7 @@
             }
           },
           {
-            "id": "29a961cc-3279-48c8-9294-cfc4ac73a23f",
+            "id": "5cce9c5c-0661-4624-9e23-1277c9a7481f",
             "name": "batter_id",
             "comment": "",
             "dataType": "bigint",
@@ -810,7 +987,7 @@
             }
           },
           {
-            "id": "b35ca3ab-d95c-4f62-bfa2-fe33185814e6",
+            "id": "221d662a-dd11-435f-acf5-23e1a9131a79",
             "name": "stance",
             "comment": "",
             "dataType": "varchar(7)",
@@ -833,7 +1010,7 @@
             }
           },
           {
-            "id": "6416af7c-4dae-424d-b186-22aeecdc4b34",
+            "id": "2f87ec4a-2887-4dc8-8d10-8ca5ced0a7eb",
             "name": "hit_speed",
             "comment": "",
             "dataType": "integer",
@@ -856,7 +1033,7 @@
             }
           },
           {
-            "id": "ebb4a1de-6aa3-4bfb-b3bc-7331610e43d5",
+            "id": "18066bd0-7167-42df-aa7e-9702e2c0c13a",
             "name": "hit_distance",
             "comment": "",
             "dataType": "integer",
@@ -879,7 +1056,7 @@
             }
           },
           {
-            "id": "60b05fda-6a82-491c-a70e-ca356f05d128",
+            "id": "36c06dbc-c2d0-4ae1-8c3e-1f370a001048",
             "name": "hit_angle",
             "comment": "",
             "dataType": "integer",
@@ -902,7 +1079,7 @@
             }
           },
           {
-            "id": "2ef471ef-3b18-4f1a-a18a-d720556410a5",
+            "id": "ec37ce28-f7cf-4297-957c-021681af1f51",
             "name": "is_barrell",
             "comment": "",
             "dataType": "bool",
@@ -925,7 +1102,7 @@
             }
           },
           {
-            "id": "5ea2b70e-fe5d-457e-b902-88217a1cc068",
+            "id": "6b58ae69-8cf6-486b-a8a9-bd806bb8642b",
             "name": "is_bip_out",
             "comment": "",
             "dataType": "bool",
@@ -948,7 +1125,7 @@
             }
           },
           {
-            "id": "75aa89a1-abc8-4bae-bbcd-48fdbb26b31c",
+            "id": "8cb07d6b-cb35-4dce-bcb3-df98fa0d6d06",
             "name": "game_id",
             "comment": "",
             "dataType": "integer",
@@ -973,21 +1150,21 @@
         ],
         "ui": {
           "active": false,
-          "left": 1044,
-          "top": 267,
-          "zIndex": 12,
+          "left": 68,
+          "top": 502.5,
+          "zIndex": 28,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
-        "id": "7f3416dc-0e53-4cde-a2b5-c70d923e6cf9"
+        "id": "040bfdea-792c-46eb-be7d-842408a1dbb2"
       },
       {
         "name": "pitch",
         "comment": "",
         "columns": [
           {
-            "id": "14344ab9-c0f3-42d1-859d-d5971012e942",
+            "id": "3c07e5e4-cc25-42c2-82f0-264cf3d3cd17",
             "name": "pitch_id",
             "comment": "",
             "dataType": "text",
@@ -1010,7 +1187,7 @@
             }
           },
           {
-            "id": "fc2362d8-d1a5-4788-9770-db7857f5615e",
+            "id": "0eef921b-1e66-4635-9f03-14e932b5ca1d",
             "name": "inning",
             "comment": "",
             "dataType": "smallint",
@@ -1033,7 +1210,7 @@
             }
           },
           {
-            "id": "21eaefdc-8d50-4ae1-86f7-0ffee02f8036",
+            "id": "7e69af62-2bd9-49a7-8ca6-e0ab91931f60",
             "name": "ab_number",
             "comment": "",
             "dataType": "smallint",
@@ -1056,7 +1233,7 @@
             }
           },
           {
-            "id": "86ace01b-a1c2-4504-959c-851d24a6ec21",
+            "id": "48e94d5e-08ed-4957-bd3d-7de9866c8e59",
             "name": "outs",
             "comment": "",
             "dataType": "smallint",
@@ -1079,7 +1256,7 @@
             }
           },
           {
-            "id": "dade2e09-323a-4898-9744-3e167e80215b",
+            "id": "81e5c867-72a9-4dfb-90b9-0f4cfda2d054",
             "name": "throws",
             "comment": "",
             "dataType": "varchar(7)",
@@ -1102,7 +1279,7 @@
             }
           },
           {
-            "id": "fd2eac36-f20b-4abe-8488-34cdcb4d35a7",
+            "id": "5a50af4d-1dff-434a-a411-c838f5ba26f4",
             "name": "pitcher_id",
             "comment": "",
             "dataType": "integer",
@@ -1125,7 +1302,7 @@
             }
           },
           {
-            "id": "139b8d1e-b2eb-4417-b2c7-8a9549c8c2d3",
+            "id": "215ff1ee-6762-4ccf-abf3-81f884379373",
             "name": "team_id",
             "comment": "",
             "dataType": "smallint",
@@ -1148,7 +1325,7 @@
             }
           },
           {
-            "id": "0d8c2a59-a1f7-4128-bf97-13dd4a743e8f",
+            "id": "be081afd-a606-4ac6-b165-f7a35670f223",
             "name": "result",
             "comment": "",
             "dataType": "text",
@@ -1171,7 +1348,7 @@
             }
           },
           {
-            "id": "ea53f36a-1565-485c-8372-a15a85afb91a",
+            "id": "3c87174e-a6fc-490b-b765-6bf5b5483eec",
             "name": "description",
             "comment": "",
             "dataType": "text",
@@ -1194,7 +1371,7 @@
             }
           },
           {
-            "id": "33214d73-b159-4ca7-905d-714147e7d126",
+            "id": "13c58706-6738-4d55-bc77-a1ed250d1c56",
             "name": "strikes",
             "comment": "",
             "dataType": "smallint",
@@ -1217,7 +1394,7 @@
             }
           },
           {
-            "id": "f442ae7d-7b30-4260-89e4-0e9ad07f2edc",
+            "id": "60897785-f092-44b9-8e17-1e9d08725157",
             "name": "balls",
             "comment": "",
             "dataType": "smallint",
@@ -1240,7 +1417,7 @@
             }
           },
           {
-            "id": "b4ae80fa-c5ef-4143-a1f4-97d8d0487663",
+            "id": "095bba00-49c4-40c6-b4d7-90a3f6997551",
             "name": "pre_strikes",
             "comment": "",
             "dataType": "smallint",
@@ -1263,7 +1440,7 @@
             }
           },
           {
-            "id": "d1ffa36c-323c-46a9-b45f-11841c31d85e",
+            "id": "ad72e604-8926-422e-9300-6501de93e00e",
             "name": "pre_balls",
             "comment": "",
             "dataType": "smallint",
@@ -1286,7 +1463,7 @@
             }
           },
           {
-            "id": "763905b0-74ad-42b7-8bec-03f2df425c3b",
+            "id": "528f5855-8e0d-423e-94aa-8e65f8d1ba24",
             "name": "call_name",
             "comment": "",
             "dataType": "text",
@@ -1309,7 +1486,7 @@
             }
           },
           {
-            "id": "70c80079-fa28-4667-9d40-ed0609531a05",
+            "id": "cbc9e4e9-635c-462a-a9ed-81791e809bdd",
             "name": "swinging_strike",
             "comment": "",
             "dataType": "bool",
@@ -1332,7 +1509,7 @@
             }
           },
           {
-            "id": "232a2d21-0497-424a-a7dd-896a02f7a53f",
+            "id": "b4e9a0f5-0a38-40a0-9ee8-a0b0d962670e",
             "name": "pitch_type",
             "comment": "",
             "dataType": "varchar(7)",
@@ -1355,7 +1532,7 @@
             }
           },
           {
-            "id": "ca936182-9a75-4232-9b20-a2018e7dcf07",
+            "id": "1d757451-2c2a-4e75-8add-977f1365128d",
             "name": "start_speed",
             "comment": "",
             "dataType": "real",
@@ -1378,7 +1555,7 @@
             }
           },
           {
-            "id": "e3473071-f877-4823-9868-e3ca69b094d4",
+            "id": "5711bfbd-ddc9-44ba-8f12-de6a01b4e816",
             "name": "extension",
             "comment": "",
             "dataType": "real",
@@ -1401,7 +1578,7 @@
             }
           },
           {
-            "id": "cf95667a-552e-4ff6-a715-f81971ff0da0",
+            "id": "5f99838c-b684-4d33-a502-8aaadafc0ef1",
             "name": "zone",
             "comment": "",
             "dataType": "smallint",
@@ -1424,7 +1601,7 @@
             }
           },
           {
-            "id": "dddaf68d-93ff-42e7-b04f-2487bd804564",
+            "id": "0a4796bc-dd04-4aed-ae2a-803aed469f55",
             "name": "spin_rate",
             "comment": "",
             "dataType": "integer",
@@ -1447,7 +1624,7 @@
             }
           },
           {
-            "id": "2a6b618b-33be-4cd1-bb53-a6454fc0d5b0",
+            "id": "a4b40b8e-f5c2-43ee-b9cd-b65cbd189599",
             "name": "break_x",
             "comment": "",
             "dataType": "smallint",
@@ -1470,7 +1647,7 @@
             }
           },
           {
-            "id": "220cfaed-5fdd-4b1f-93ba-e229e138791c",
+            "id": "f025cb58-012e-41d5-a06a-80275f6653d7",
             "name": "break_z",
             "comment": "",
             "dataType": "smallint",
@@ -1493,7 +1670,7 @@
             }
           },
           {
-            "id": "9cc33ced-846e-4e59-8222-abdd07201d51",
+            "id": "98516ceb-ba86-4a64-a0fd-e8954d8a21b5",
             "name": "pitch_number",
             "comment": "",
             "dataType": "smallint",
@@ -1516,7 +1693,7 @@
             }
           },
           {
-            "id": "41130827-ce05-41fa-a7e9-f5756d496e61",
+            "id": "66b89923-0e14-4c52-8d3c-3ae06eb93957",
             "name": "player_total_pitches",
             "comment": "",
             "dataType": "smallint",
@@ -1539,7 +1716,7 @@
             }
           },
           {
-            "id": "b4134e31-3725-481f-be86-5e8605df2d3d",
+            "id": "1919e8de-e46f-4aaf-a102-7c78116c6c19",
             "name": "game_id",
             "comment": "",
             "dataType": "integer",
@@ -1564,14 +1741,14 @@
         ],
         "ui": {
           "active": false,
-          "left": 50,
-          "top": 607,
-          "zIndex": 8,
+          "left": 464,
+          "top": 517.5,
+          "zIndex": 18,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
-        "id": "09f03eea-266c-4c25-8f61-f88a82974e16"
+        "id": "db6098a2-acf9-4665-bbe8-8e07210ea1d1"
       }
     ],
     "indexes": []
@@ -1586,130 +1763,156 @@
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "32d918af-7139-4059-ad21-37a84ff41319",
+          "tableId": "949b13bb-14a1-4379-a42b-b2d62456eb34",
           "columnIds": [
-            "3ba92471-01c5-4f82-a0c7-ed49db65070a"
+            "0aca55f0-b8eb-42ab-9371-ab301307c712"
           ],
-          "x": 223.5,
-          "y": 160,
-          "direction": "bottom"
+          "x": 397,
+          "y": 105,
+          "direction": "right"
         },
         "end": {
-          "tableId": "9c795cc2-5f6f-4f37-b669-94f2bca2457a",
+          "tableId": "74726cab-0fee-4e43-b53f-3a358a12a606",
           "columnIds": [
-            "ec7747c0-4492-44ab-b0fb-9fcb0049abfa"
+            "f20196e7-6cbc-4e72-af52-a3fa0b119a2a"
           ],
-          "x": 233.061279296875,
-          "y": 267,
-          "direction": "top"
+          "x": 455,
+          "y": 262,
+          "direction": "left"
         },
         "constraintName": "",
         "visible": true,
-        "id": "3582b2a6-27aa-4ccd-9213-6eb98f0fa1be"
+        "id": "1a577a6e-4296-4771-ab4a-bb822ca97614"
       },
       {
         "identification": false,
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "9c795cc2-5f6f-4f37-b669-94f2bca2457a",
+          "tableId": "74726cab-0fee-4e43-b53f-3a358a12a606",
           "columnIds": [
-            "1e59ad97-be8e-4897-8c00-3b72a6f3a612"
+            "62fe05ef-967c-45d3-b13f-5877adcccc74"
           ],
-          "x": 416.12255859375,
-          "y": 363,
-          "direction": "right"
+          "x": 455,
+          "y": 358,
+          "direction": "left"
         },
         "end": {
-          "tableId": "7f3416dc-0e53-4cde-a2b5-c70d923e6cf9",
+          "tableId": "040bfdea-792c-46eb-be7d-842408a1dbb2",
           "columnIds": [
-            "75aa89a1-abc8-4bae-bbcd-48fdbb26b31c"
+            "8cb07d6b-cb35-4dce-bcb3-df98fa0d6d06"
           ],
-          "x": 1044,
-          "y": 404,
-          "direction": "left"
+          "x": 247.80810546875,
+          "y": 502.5,
+          "direction": "top"
         },
         "constraintName": "",
         "visible": true,
-        "id": "94fe3e9a-a5eb-4321-8f0b-59f9768c5e29"
+        "id": "08dc3423-9dae-4166-a7a5-fd5d00ab8b83"
       },
       {
         "identification": true,
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "0a8413d6-d582-40b9-bcce-60b5eb39c700",
+          "tableId": "0c4c493e-9314-407b-8366-4bcfa59fca23",
           "columnIds": [
-            "94f5e22f-7d0a-4408-85be-6eecb615b8d4"
+            "b2c835e8-48d0-4118-8001-f9ebcf6444a1"
           ],
-          "x": 671.1181640625,
-          "y": 180.5,
-          "direction": "bottom"
+          "x": 461,
+          "y": 128.25,
+          "direction": "left"
         },
         "end": {
-          "tableId": "d9779d0b-b21c-4bb8-9345-37c70fa763a3",
+          "tableId": "2c22cd75-1e2f-4792-b051-517c748fcccd",
           "columnIds": [
-            "a3170e9c-43c9-4c98-8c21-3bbc2d831dc2"
+            "90cf9fe5-8802-4b12-98ae-cd53233ebd75"
           ],
-          "x": 728.725830078125,
-          "y": 267,
-          "direction": "top"
+          "x": 404.45166015625,
+          "y": 304.25,
+          "direction": "right"
         },
         "constraintName": "",
         "visible": true,
-        "id": "02731d65-ec2e-4f18-96ad-8a79085c4183"
+        "id": "6a118804-0620-4198-9c34-e00124976c8b"
       },
       {
         "identification": false,
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "9c795cc2-5f6f-4f37-b669-94f2bca2457a",
+          "tableId": "74726cab-0fee-4e43-b53f-3a358a12a606",
           "columnIds": [
-            "1e59ad97-be8e-4897-8c00-3b72a6f3a612"
+            "62fe05ef-967c-45d3-b13f-5877adcccc74"
           ],
-          "x": 233.061279296875,
-          "y": 459,
+          "x": 638.061279296875,
+          "y": 406,
           "direction": "bottom"
         },
         "end": {
-          "tableId": "09f03eea-266c-4c25-8f61-f88a82974e16",
+          "tableId": "db6098a2-acf9-4665-bbe8-8e07210ea1d1",
           "columnIds": [
-            "b4134e31-3725-481f-be86-5e8605df2d3d"
+            "1919e8de-e46f-4aaf-a102-7c78116c6c19"
           ],
-          "x": 252.9326171875,
-          "y": 607,
+          "x": 666.9326171875,
+          "y": 517.5,
           "direction": "top"
         },
         "constraintName": "",
         "visible": true,
-        "id": "33b3ccc6-68af-4311-8e72-9465cb0cb04a"
+        "id": "2e5dab40-cab9-4969-ba72-3e457f017903"
       },
       {
         "identification": false,
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "0a8413d6-d582-40b9-bcce-60b5eb39c700",
+          "tableId": "0c4c493e-9314-407b-8366-4bcfa59fca23",
           "columnIds": [
-            "94f5e22f-7d0a-4408-85be-6eecb615b8d4"
+            "b2c835e8-48d0-4118-8001-f9ebcf6444a1"
           ],
-          "x": 845.236328125,
-          "y": 115.25,
+          "x": 809.236328125,
+          "y": 128.25,
           "direction": "right"
         },
         "end": {
-          "tableId": "ee8dc4a9-439c-4f53-9853-8d278884589e",
+          "tableId": "91ce4c00-1756-43a4-abaf-b23395e77665",
           "columnIds": [
-            "56380d58-b233-409f-8429-9117c13d3a52"
+            "2a8b92c4-49ed-4f15-9a50-cc001f8281ec"
           ],
-          "x": 964,
-          "y": 125.5,
+          "x": 931,
+          "y": 112.5,
           "direction": "left"
         },
         "constraintName": "",
         "visible": true,
-        "id": "bc13d722-de96-44b0-bfbd-2cf50280f21d"
+        "id": "bf248932-ed21-44c2-a63c-16d7db934628"
+      },
+      {
+        "identification": true,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "74726cab-0fee-4e43-b53f-3a358a12a606",
+          "columnIds": [
+            "62fe05ef-967c-45d3-b13f-5877adcccc74"
+          ],
+          "x": 821.12255859375,
+          "y": 310,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "11b9dc5e-9de1-48dc-aa20-8754c69d4ae7",
+          "columnIds": [
+            "65b6f4a6-c91b-4ddd-a7e7-14ea6040081b"
+          ],
+          "x": 939,
+          "y": 316.25,
+          "direction": "left"
+        },
+        "constraintName": "",
+        "visible": true,
+        "id": "c7bbe0ed-901b-4b6b-9014-addc9328b579"
       }
     ]
   }

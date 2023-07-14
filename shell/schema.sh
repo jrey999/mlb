@@ -1,15 +1,13 @@
 #!/bin/bash
-folder="$(dirname "$0")/data/schema"
-
+script_dir="$(cd "$(dirname "$0")" && pwd)"; folder="$script_dir/../data/schema"
+tables=($(sqlite3 db.sqlite3 ".table"))
 for file in "$folder"/*; do
-    tablename="${file##*/}"
-    tablename="${tablename%.sql}"  # Remove the ".sql" extension to get the table name
-    
+    table="${file##*/}"; table="${table%.sql}"  # split the file so it has the same name as the table
     # Check if the table exists
-    if sqlite3 db.sqlite3 ".table $tablename" &>/dev/null; then
-        echo "Table $tablename already exists"
+    if [[ " ${tables[*]} " == *" $table "* ]]; then
+    echo "Table '$table' has already been created"
     else
         sqlite3 db.sqlite3 < $file
-        echo "Table $tablename has been created"
+        echo "Table '$table' was just created"
     fi
 done
