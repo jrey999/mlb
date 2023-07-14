@@ -161,6 +161,3 @@ cython_debug/
 
 # sqlite
 db.sqlite3
-
-#vuerd
-erd.vuerd.json
