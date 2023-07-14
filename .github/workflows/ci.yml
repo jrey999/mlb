@@ -31,4 +31,4 @@ jobs:
             - name: Test
               run: |
                 python -m pytest tests
-                ./schema.sh
+                ./shell/schema.sh
