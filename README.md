@@ -3,6 +3,16 @@
 Repository to create a sqlite DB of data from the mlb.stats API
 
 # To create the database
+clone the repository
+```bash
+git clone https://github.com/jrey999/mlb.git
+```
+
+install required Python libraries
+```bash
+pip install -r requirements.txt
+```
+
 create tables 
 ```bash
 ./shell/schema.sh
