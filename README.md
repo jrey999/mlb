@@ -18,5 +18,9 @@ collect data for the inning, player, hit and pitch tables
 python pitch.py
 ```
 
+aggregate data for the box_score table
+```bash
+./shell/aggregations.sh
+```
 schema can be changed by changing the SQL in the schema folder, ERD of the table is available below
 ![ERD](ERD.png)

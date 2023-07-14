@@ -22,7 +22,7 @@ SELECT
     hit.stance, pitch.outs, pitch.balls, pitch.strikes, pitch.swinging_strike,
     pitch.pitch_type,  pitch.zone, pitch.spin_rate, pitch.break_x, pitch.break_z,
     pitch.player_total_pitches, hit.hit_speed, hit.hit_distance, hit.hit_angle, hit.is_barrell,
-    hit.is_bip_out, pitch.result, pitch.game_id, pitch.pitch_id
+    hit.is_bip_out, pitch.result, pitch.game_id
 FROM
     pitch
 JOIN
