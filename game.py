@@ -48,7 +48,7 @@ for venue in schedule.venues:
     )
 
 DB.commit()
-json.dump(teamidmap, open("teamidmap.json", "w"), indent=0)
+json.dump(teamidmap, open("metadata/teamidmap.json", "w"), indent=0)
 cursor.execute(open("data/schema/game.sql", "r").read().rstrip())
 for game in schedule.game:
     print("game_id:{}\n".format(game[0]))
