@@ -7,10 +7,13 @@ clone the repository
 ```bash
 git clone https://github.com/jrey999/mlb.git
 ```
-
+create a virtual environment
+```bash
+python3 -m venv venv --prompt <name your environment>
+```
 install required Python libraries
 ```bash
-pip install -r requirements.txt
+pip install --upgrade pip -r requirements.txt
 ```
 
 create tables 
