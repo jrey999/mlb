@@ -41,6 +41,10 @@ package "Deployment and Infrastructure" {
   [Orchestration]
 }
 
+package "Aggregation Modules" {
+    [SQL Files]
+}
+
 [Orchestration] --> [API Client]
 [API Client] --> [Schedule Endpoint]
 [API Client] --> [Game Endpoint]
@@ -52,6 +56,9 @@ package "Deployment and Infrastructure" {
 [Loading] --> [Monitoring and Logging]
 [Relational Database] -> [Database Schema]
 [Database Schema] --> [Tables]
+[Inning] -> [Aggregation Modules]
+[Aggregation Modules] -> [SQL Files]
+[SQL Files] --> [Box_Score]
 [Tables] --> [Reporting]
 [Reporting] -> [Analysis]
 [Analysis] -> [Reports]
