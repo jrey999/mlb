@@ -1,0 +1,59 @@
+@startuml
+package "API Client" {
+    [Schedule Endpoint]
+    [Game Endpoint]
+}
+
+database "Relational Database" {
+  [Database Schema]
+  folder "Tables" {
+    [Box_Score]
+    [Game]
+    [Hit]
+    [Inning]
+    [Pitch]
+    [Player]
+    [Team]
+    [Season]
+    [Venue]
+  }
+}
+
+package "ETL Process" {
+  [Extraction]
+  [Transformation]
+  [Loading]
+}
+
+package "Monitoring and Logging" {
+  [Monitoring]
+  [Logging]
+}
+
+package "Reporting" {
+    [Analysis]
+    [Dashboards]
+    [Reports]
+}
+
+package "Deployment and Infrastructure" {
+  [Containerization]
+  [Orchestration]
+}
+
+[Orchestration] --> [API Client]
+[API Client] --> [Schedule Endpoint]
+[API Client] --> [Game Endpoint]
+[Schedule Endpoint] --> [Extraction]
+[Game Endpoint] --> [Extraction]
+[Extraction] -> [Transformation]
+[Transformation] --> [Loading]
+[Loading] --> [Relational Database]
+[Loading] --> [Monitoring and Logging]
+[Relational Database] -> [Database Schema]
+[Database Schema] --> [Tables]
+[Tables] --> [Reporting]
+[Reporting] -> [Analysis]
+[Analysis] -> [Reports]
+[Reports] -> [Dashboards]
+@enduml

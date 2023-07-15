@@ -27,11 +27,11 @@ def iso_to_dt(iso_string: str) -> dt.datetime:
 
 def get_team(team_name: str) -> str:
     """takes in the spelled out team name and returns the 2 or letter team code"""
-    return json.load(open("metadata/teammap.json", "r")).get(team_name)
+    return json.load(open("meta/teammap.json", "r")).get(team_name)
 
 def get_team_id(team_code: str) -> int:
 
-    return json.load(open("metadata/teamidmap.json", "r")).get(team_code)
+    return json.load(open("meta/teamidmap.json", "r")).get(team_code)
 
 def fmt_is_barrel(is_barrel: int or None) -> bool or None:
     """formats the is_barrel field"""
