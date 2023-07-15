@@ -3,8 +3,8 @@ from data.datamodels import Schedule, DB
 
 
 schedule, cursor, teamidmap = Schedule(datetime.datetime.now().year), DB.cursor(), {}
-cursor.execute(open("data/schema/season.sql", "r").read().rstrip())
-cursor.execute(open("data/schema/team.sql", "r").read().rstrip())
+cursor.execute(open("data/schema/tables/season.sql", "r").read().rstrip())
+cursor.execute(open("data/schema/tables/team.sql", "r").read().rstrip())
 for team in schedule.teams:
 
     teamidmap[team["code"]] = team["team_id"]
@@ -48,8 +48,8 @@ for venue in schedule.venues:
     )
 
 DB.commit()
-json.dump(teamidmap, open("metadata/teamidmap.json", "w"), indent=0)
-cursor.execute(open("data/schema/game.sql", "r").read().rstrip())
+json.dump(teamidmap, open("meta/teamidmap.json", "w"), indent=0)
+cursor.execute(open("data/schema/tables/game.sql", "r").read().rstrip())
 for game in schedule.game:
     print("game_id:{}\n".format(game[0]))
     cursor.execute(
