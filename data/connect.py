@@ -2,7 +2,8 @@ import sqlite3, dotenv, os, boto3
 
 
 dotenv.load_dotenv()
-config, session = {key: value for key, value in dict(os.environ).items()}, boto3.session.Session()
+config, session = {key: value for key, value in os.environ.items()}, boto3.session.Session()
+print(config)
 client = session.client(
     's3', region_name='nyc3',
     endpoint_url='https://nyc3.digitaloceanspaces.com',
