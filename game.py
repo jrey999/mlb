@@ -1,5 +1,6 @@
 import json, datetime
-from data.datamodels import Schedule, DB
+from mlb.datamodels import Schedule
+from data.connect import DB, upload_db
 
 
 schedule, cursor, teamidmap = Schedule(datetime.datetime.now().year), DB.cursor(), {}
@@ -74,3 +75,4 @@ for game in schedule.game:
         game
     )
 DB.commit()
+upload_db()

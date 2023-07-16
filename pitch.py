@@ -1,4 +1,5 @@
-from data.datamodels import Pitches, DB
+from mlb.datamodels import Pitches
+from data.connect import DB, upload_db
 
 
 cursor = DB.cursor()
@@ -148,3 +149,4 @@ for game_id in game_ids:
         )
 
     DB.commit()
+upload_db()

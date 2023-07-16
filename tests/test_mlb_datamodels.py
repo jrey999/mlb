@@ -1,4 +1,4 @@
-from data.datamodels import get_date, get_team, get_team_id, fmt_pitch, Pitches
+from mlb.datamodels import get_date, get_team, get_team_id, fmt_pitch, Pitches
 import datetime as dt
 import json
 
