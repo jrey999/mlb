@@ -2,7 +2,6 @@ import sqlite3, dotenv, os, boto3
 
 
 dotenv.load_dotenv()
-
 config, session = {key: value for key, value in dict(os.environ).items()}, boto3.session.Session()
 client = session.client(
     's3', region_name='nyc3',
