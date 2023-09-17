@@ -1,4 +1,4 @@
-from data.datamodels import get_date, get_team, get_team_id, fmt_pitch, Pitches
+from data.funcs import get_date, get_team, get_team_id, fmt_pitch
 import datetime as dt
 import json
 
@@ -37,9 +37,3 @@ def test_fmt_pitch_hit() -> None:
         "c83fc0c1-b6b8-4701-b093-0652d7e5d3b6", 120, 600869, "R", 100.7, 377,
         21, False, True, 717507
     )
-
-def test_pitches_innings() -> None:
-
-    for element in Pitches((717507, 113, 120)).innings:
-
-        assert isinstance(element, tuple)
